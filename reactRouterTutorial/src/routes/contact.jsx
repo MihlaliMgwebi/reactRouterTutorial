@@ -3,7 +3,6 @@ import { Form, useLoaderData } from "react-router-dom";
 import { getContact } from "../contacts";
 export async function loader({ params }) {
   const contact = await getContact(params.contactId);
-  console.log(contact);
   return { contact };
 }
 

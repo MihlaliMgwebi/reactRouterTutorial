@@ -1,0 +1,2 @@
+1. [Mutation discussion](https://reactrouter.com/en/main/start/tutorial#mutation-discussion)
+Without client side routing, if a server redirected after a POST request, the new page would fetch the latest data and render. As we learned before, React Router emulates this model and automatically revalidates the data on the page after the action. That's why the sidebar automatically updates when we save the form. The extra revalidation code doesn't exist without client side routing, so it doesn't need to exist with client side routing either!
