@@ -8,7 +8,7 @@ const router = createBrowserRouter([
   {
     //root route: root layout of the UI
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <Root/>
   },
 ]);
 
