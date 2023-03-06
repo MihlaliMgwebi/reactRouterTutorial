@@ -2,13 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import Root from "./routes/root";
 
 const router = createBrowserRouter([
   // [createBrowserRouter](https://reactrouter.com/en/main/routers/create-browser-router)
   {
     //root route: root layout of the UI
     path: "/",
-    element: <Root/>
+    element: <Root />,
   },
 ]);
 
